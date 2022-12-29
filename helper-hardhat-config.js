@@ -10,7 +10,7 @@ const networkConfig = {
         callbackGasLimit: "500000",
         interval: "30",
         contractCost: ethers.utils.parseEther("0.001"),
-        mintFee: "10000000000000000",
+        mintFee: ethers.utils.parseEther("0.01"),
     },
     31337: {
         name: "hardhat",
@@ -19,7 +19,7 @@ const networkConfig = {
         callbackGasLimit: "500000",
         interval: "30",
         contractCost: ethers.utils.parseEther("0.001"),
-        mintFee: "100000000000000000",
+        mintFee: ethers.utils.parseEther("0.01"),
     },
 }
 const developmentChains = ["hardhat", "localhost"]
